@@ -1,0 +1,42 @@
+body {
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    text-align: center;
+    overflow: hidden;
+}
+
+a {
+    color: #00B7FF;
+}
+
+input {
+    margin-top: 20px;
+    width: 400px;
+}
+
+#container {
+    margin: 0 auto;
+    width: 800px;
+    height: 600px;
+}
+
+.cover {
+    width: 600px;
+    height: 600px;
+    box-shadow: 3px 3px 30px 5px #ccc;
+    background: white no-repeat center center;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    opacity: 0;
+}
+
+.cover:hover .overlay {
+    opacity: 1;
+}

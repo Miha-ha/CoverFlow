@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= title %></title>
+  <link rel='stylesheet' href='/stylesheets/style.css'/>
+  <script type="text/javascript" src="//media.megavisor.com/player/api.js?callback=MegavisorAPILoadSuccess"></script>
+</head>
+<body>
+<form action="#" name="searchForm">
+  <input type="text" id="searchInput" value="http://megavisor.com/ru/catalog/2206/">
+  <button type="submit">Go</button>
+  <div id="container"></div>
+</form>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/javascripts/libs/three-css3d.min.js"></script>
+<script src="/javascripts/libs/tween.min.js"></script>
+<script src="/javascripts/CoverFlow.js"></script>
+<script src="/javascripts/App.js"></script>
+</body>
+</html>
